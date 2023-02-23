@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const AboutCompany = () => {
   return (
     <>
@@ -10,11 +11,9 @@ const AboutCompany = () => {
               <div className="about-details-info pr-65">
                 <div className="tp-section-wrapper">
                   <span className="tp-section-subtitle mb-25">
-                    About our Company
+                    About My Practice
                   </span>
-                  <h2 className="tp-pt-size mb-40">
-                    Our business boasts top of the line services
-                  </h2>
+                  <h2 className="tp-pt-size mb-40">General Overview</h2>
                 </div>
                 <div className="about-tb-content">
                   <nav>
@@ -29,7 +28,7 @@ const AboutCompany = () => {
                         aria-controls="nav-mission"
                         aria-selected="true"
                       >
-                        Our Mission
+                        My Mission
                       </button>
 
                       <button
@@ -42,7 +41,7 @@ const AboutCompany = () => {
                         aria-controls="nav-vission"
                         aria-selected="false"
                       >
-                        Our Vission
+                        Areas of Practice
                       </button>
                       <button
                         className="nav-links"
@@ -66,11 +65,13 @@ const AboutCompany = () => {
                       aria-labelledby="nav-mission"
                     >
                       <p>
-                        Dolor volutpat ac tincidunt vitae semper quis lectus
-                        nulla at. Nibh nisl id venenatis a condimentum. Libero
-                        justo laoreet sit amet. Nisl nisi scelerisque sit
-                        ultrices vitae. Dolor sit amet consectetur adipiscing
-                        elit pellentesque. Phasellus egestas tellus rutrum
+                        I work with a wide range of emotional and behavioral
+                        issues providing services that span from therapy for
+                        depression and grief counseling to parenting support,
+                        couples counseling and beyond. In a comfortable and
+                        supportive atmosphere, I offer a highly personalized
+                        approach tailored to each of my clients individual needs
+                        to help attain the personal growth they’re striving for.
                       </p>
 
                       <p>
@@ -129,23 +130,6 @@ const AboutCompany = () => {
                       </p>
                     </div>
                   </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6 text-end">
-              <div className="tp-about-img-box p-relative d-inline-block mb-30">
-                <div className="about-page-img">
-                  <img src="assets/img/about/about-page.png" alt="" />
-                </div>
-                <div className="dots-img">
-                  <img src="assets/img/about/dot.jpg" alt="" />
-                </div>
-                <div className="about-info-box d-flex flex-column justify-content-center text-center">
-                  <h3 className="box-title">24</h3>
-                  <h4 className="box-subtitle">
-                    Year of <br />
-                    Experience
-                  </h4>
                 </div>
               </div>
             </div>

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 // single service
 export function ServiceItem({ icon, title, desc }) {
   return (
-    <div className="col-xl-3 col-md-6 grey-bg-4">
+    <div className="col-xl-4 col-md-6 grey-bg-4">
       <div className="tp-service  text-center pt-60 pb-45 pl-25 pr-25 mb-30">
         <div className="tp-service__icon">
           <i className={icon}></i>

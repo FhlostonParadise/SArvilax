@@ -11,14 +11,22 @@ const AboutThree = () => {
             <div className="col-lg-6">
               <div className="tp-ab-info pr-40">
                 <div className="tp-ab-subtitle mb-10">
-                  <span>About Me</span>
+                  <span id="about">About Me</span>
                 </div>
-                <h3 className="tp-ab-title mb-35">Shana Aoyama</h3>
+                <h3 className="tp-ab-title">Shana Aoyama</h3>
+                <h4 className='mb-35'>Marriage & Family Therapist, MS, LMFT</h4>
                 <p>
-                  Instead of cramming every last detail about yourself in this one section, maybe it can have an intro, some basics, and then link to a more thourough page.
+                Within every person, there is a story full of meaning and worth. I didn’t always believe that because I rarely, if ever, saw mine reflected back at me. As a biracial/bicultural woman, I admired the ease with which others fit into specific identities and communities.
                 </p>
+                <p>
+                In my late teens and early adulthood, I was exposed to ways of thinking about identity that expanded past rigid boundaries and into fluidity and the gray area in which I often found myself. 
+                </p>
+                <p>
+                At this point in my life, I find power and possibility within my many and intersecting identities, and I bring this into the therapy space. I aim to bring all parts of me into my practice, and hope to create a space in which my clients also feel safe bringing their genuine selves too. 
+                </p>
+                
                 <div>
-                  <Link to="/team-details" className="tp-btn">
+                  <Link to="/team-details" className="tp-btn mb-35">
                     More About Me
                     <span>
                       <svg

@@ -7,25 +7,24 @@ const TopCtaArea = () => {
       {/* <!-- cta area start --> */}
       <div className="tp-cta-area">
         <div className="container">
-          <div className="tp-cta-wrapper pt-105 pb-120">
+          <div className="tp-cta-wrapper pt-50">
             <div className="row align-items-center justify-content-evenly">
               <div className="col-lg-9">
                 <div className="tp-section-wrapper">
                   <span className="tp-section-subtitle mb-25">
-                    Gain your business Success
+                    Get Started
                   </span>
                   <h2 className="tp-section-title">
-                    From strategy to delivery, we are here to make sure your
-                    business endeavor succeeds. Trust our experts.
+                    Ready to get started?
                   </h2>
                 </div>
               </div>
               <div className="col-lg-3 d-flex justify-content-lg-end">
-                <Link to="/team">
+                <Link to="/contact">
                   <div className="tp-theme-btn d-flex align-items-center">
                     <div className="tp-btn-inner">
-                      <p className="mb-0">Our Team</p>
-                      <b>Meet our Team</b>
+                      <p className="mb-0">Contact</p>
+                      <b>Contact Now</b>
                       <span className="d-inline-block">
                         <svg
                           width="46"
